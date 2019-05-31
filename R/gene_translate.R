@@ -16,11 +16,22 @@
 #' }
 #' @export
 
+#gene_translate <- function(gene_info){
+#
+#  gene_name <- ifelse(is.character(gene_info),TRUE,FALSE)
+#  gene_info <- ifelse(is.character(gene_info), toupper(gene_info) ,gene_info)
+#  entrez_id <- ifelse(sum(gene_name) > 0, as.numeric(unlist(mget(x=gene_info, envir=org.Hs.egALIAS2EG))), gene_info)
+#
+#  return(entrez_id)
+#}
+
 gene_translate <- function(gene_info){
 
   gene_name <- ifelse(is.character(gene_info),TRUE,FALSE)
   gene_info <- ifelse(is.character(gene_info), toupper(gene_info) ,gene_info)
-  entrez_id <- ifelse(sum(gene_name) > 0, as.numeric(unlist(mget(x=gene_info, envir=org.Hs.egALIAS2EG))), gene_info)
+  entrez_id <- ifelse(sum(gene_name) > 0, as.numeric(genenames$ENTREZID[which(genenames$SYMBOL == gene_info)]), gene_info)
 
   return(entrez_id)
-}
+  }
+
+
