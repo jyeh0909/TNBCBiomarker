@@ -12,4 +12,4 @@ RoxygenNote: 6.1.1
 biocViews:
 Depends: AnnotationDbi, org.Hs.eg.db,
          ggplot2, survival, survminer, corrplot, ggpubr, gridExtra,
-         lattice, R(>= 2.14.1)
+         lattice, R(>= 3.5.0)
