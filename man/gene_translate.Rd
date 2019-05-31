@@ -2,7 +2,7 @@
 % Please edit documentation in R/gene_translate.R
 \name{gene_translate}
 \alias{gene_translate}
-\title{Gene tranlator}
+\title{Gene translator}
 \usage{
 gene_translate(gene_info)
 }
