@@ -1,4 +1,4 @@
-#' @title Gene tranlator
+#' @title Gene translator
 #' @description
 #' It can automatically translate gene names to gene ID.
 #'
