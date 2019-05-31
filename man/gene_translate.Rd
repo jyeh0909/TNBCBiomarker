@@ -22,5 +22,4 @@ gene_translate("s100A8")
 gene_translate("S100A8")
 
 }
-
 }

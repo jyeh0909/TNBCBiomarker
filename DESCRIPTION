@@ -9,7 +9,7 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 6.1.1
-biocViews:
+biocViews: org.Hs.egALIAS2EG
 Depends: AnnotationDbi, org.Hs.eg.db,
          ggplot2, survival, survminer, corrplot, ggpubr, gridExtra,
          lattice, R(>= 2.14.1)
