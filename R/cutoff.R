@@ -14,8 +14,6 @@
 #' @param datasurv A dataset. A dataset contains time and event information.
 #' @param gene_expr A vector. A vector contains gene expression information.
 #' @param criterion A number. A criterion that is used to split two groups. Range from 0 to 1.
-#'
-#' @import AnnotationDbi
 
 cutoff <- function(datasurv, gene_expr, criterion){
 

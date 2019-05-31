@@ -16,8 +16,6 @@
 #' }
 #'
 #' @export
-#' @import AnnotationDbi
-#' @import org.Hs.eg.db
 
 gene_translate <- function(gene_info){
 
